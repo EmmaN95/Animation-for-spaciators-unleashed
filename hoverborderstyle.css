@@ -19,7 +19,7 @@
   }
   .snip1295 .border {
     position: absolute;
-    opacity: 0.45;
+    opacity: 1;
   }
   .snip1295 .border:before,
   .snip1295 .border:after,
@@ -31,39 +31,40 @@
     display: block;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    border-width: medium;
+    border-width: 12px;
   }
   .snip1295 .border:before,
   .snip1295 .border:after {
     width: 0;
     height: 1px;
-    border-width: medium;
+    border-width: 12px;
+    background-color: #033ade;
 
   }
   .snip1295 .border div:before,
   .snip1295 .border div:after {
     width: 1px;
     height: 0;
-    border-width: medium;
+    border-width: 12px;
   }
   .snip1295 .border.one {
     left: 0;
     top: 0;
     right: 12px;
     bottom: 12px;
-    border-width: medium;
+    border-width: 12px;
   }
   .snip1295 .border.one:before,
   .snip1295 .border.one div:before {
     left: 0;
     top: 0;
-    border-width: medium;
+    border-width: 12px;
   }
   .snip1295 .border.one:after,
   .snip1295 .border.one div:after {
     bottom: 0;
     right: 0;
-    border-width: medium;
+    border-width: 12px;
   }
   .snip1295 .border.two {
     left: 12px;
