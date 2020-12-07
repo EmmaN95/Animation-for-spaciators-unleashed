@@ -1,0 +1,39 @@
+#container{
+    width: 300px;
+    background-color: pink;
+    margin: auto;
+}
+
+
+#man {
+    background:url(guy.png);
+    width: 65px;
+    height: 80px;
+    animation: walk-east 1.0s steps(3);
+}
+
+#treasure {
+    background:url(treasurechest.png);
+    width: 75px;
+    height: 75px;
+    margin-left: 100px;
+    animation: reveal 1.0s steps(2);
+    animation-delay: 1s;
+}
+
+@keyframes walk-east {
+	from { background-position: 0px; }
+	to { background-position: -195px; }
+}
+
+@keyframes reveal {
+	from { background-position: 0px; }
+	to { background-position: -140px; }
+}
+
+
+body{
+    background-color: lightblue;
+    height: auto;
+    width: auto;
+}
